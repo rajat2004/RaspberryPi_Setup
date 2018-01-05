@@ -50,7 +50,7 @@ import numpy as np
 import tensorflow as tf
 import cv2
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 
 def main(model_file,label_file):
@@ -110,8 +110,8 @@ def main(model_file,label_file):
 
 
 if __name__ == '__main__':
-    model_file="inceptionv3__retrained_graph.pb"
+    model_file="inception_voc/inceptionv3__retrained_graph.pb"
     #model_file="mobilenet_1.0_224_retrained_graph.pb"
-    label_file="inceptionv3_retrained_labels.txt"
+    label_file="inception_voc/inceptionv3_retrained_labels.txt"
     #label_file="mobilenet_1.0_224_retrained_labels.txt"
     main(model_file,label_file)

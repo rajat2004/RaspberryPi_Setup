@@ -7,13 +7,13 @@ y=0
 cascPath = os.path.join(os.getcwd(),"tutorials","computer_vision","haarcascade_frontalface_default.xml")
 faceCascade = cv2.CascadeClassifier(cascPath)
 font=cv2.FONT_HERSHEY_SIMPLEX
-video_capture = cv2.VideoCapture(0)
+video_capture = cv2.VideoCapture(1)
 
 while True:
     # CAPTURE FRAME-BY-FRAME
     ret, frame = video_capture.read()
 
-    gray = cv2.cvtColor(frame,.COLOR_BGR2GRAY)
+    gray = cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 
     faces = faceCascade.detectMultiScale(
         gray,
