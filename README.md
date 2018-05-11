@@ -14,7 +14,9 @@ Make all scripts executable
 chmod u+x *.sh
 ```
 
-Run one-by-one
+Run one-by-one, from the parent folder.
+
+As `bash utils/xyz.sh`
 
 Note: Skip 2, if OS is not macOS (or OSX)
 
