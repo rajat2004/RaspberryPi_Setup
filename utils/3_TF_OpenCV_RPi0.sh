@@ -12,13 +12,13 @@ echo $hostname
 
 sshpass -p $password ssh -t $user@$hostname << EOF
 
-sudo apt-get update
+sudo apt-get -y update
 echo "Installing pip2"
-sudo apt-get install python-pip
+sudo apt-get -y install python-pip
 
 echo "Starting to install Tensorflow, for python 2"
 
-sudo apt-get install libblas-dev liblapack-dev python-dev \
+sudo apt-get -y install libblas-dev liblapack-dev python-dev \
  libatlas-base-dev gfortran python-setuptools
 sudo pip install \
  http://ci.tensorflow.org/view/Nightly/job/nightly-pi-zero/lastSuccessfulBuild/artifact/output-artifacts/tensorflow-1.4.0-cp27-none-any.whl
@@ -31,7 +31,7 @@ pip install magic-wormhole
 
 echo "Installing opencv 3"
 
-sudo apt-get install python2.7-dev
+sudo apt-get -y install python2.7-dev
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 pip install numpy

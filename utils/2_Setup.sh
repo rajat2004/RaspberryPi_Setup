@@ -12,9 +12,9 @@ echo $hostname
 
 sshpass -p $password ssh -t $user@$hostname << EOF
 echo "Executing"
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install tightvncserver
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install tightvncserver
 
 cd /home/pi
 cd .config

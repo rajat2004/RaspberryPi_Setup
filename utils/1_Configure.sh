@@ -10,9 +10,9 @@ echo "Begining by updating and upgrading your OS"
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
   echo "Linux Platform Detected"
-  sudo apt-get update
-  sudo apt-get upgrade
-  sudo apt-get install sshpass
+  sudo apt-get -y update
+  sudo apt-get -y upgrade
+  sudo apt-get -y install sshpass
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
   echo "Mac OS Platform Detected"
