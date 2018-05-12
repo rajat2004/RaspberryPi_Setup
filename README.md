@@ -12,8 +12,8 @@ _Tested on: Rpi 3B_
 
 ## RoadMap
 
-[X] Unify all three major platforms
-[ ] Update tensorflow to 1.8.1
+[X] Unify all three major platforms  
+[ ] Update tensorflow to 1.8.1  
 [ ] Shift to Python 3 on the pi. (Currently, python2 is the defacto standard)
 
 ## Running the Scripts
