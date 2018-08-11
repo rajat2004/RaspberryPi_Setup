@@ -1,3 +1,21 @@
+# Complete Raspberry Pi Headless Setup Guide
+
+A step-by-step guide to set up a Raspberry Pi from scratch, from flashing SD card to enabling WiFi and Live Video Streaming using USB Web Camera as well as running OpenCV on the Rpi, all with only a laptop and nothing else.
+
+# Requirements
+
+- Working Linux machine with SD card slot or SD card reader
+- Raspberry Pi
+- Ethernet Cable & Power Source for Rpi
+
+Note: 
+1. It's recommended to get a speed class 10 SD Card with more than 4 GB of capacity, better to use one with 16 or 32 GB especially if you are planning to install OpenCV, ROS or TensorFlow on the Rpi.
+2. Everything was tested on a Raspberry Pi 3 with Raspbian Jessie and Linux Machine running Ubuntu 16.04      
+
+
+# 1. Setup the SD Card   
+
+
 # Setup Scripts for Raspberry Pi
 
 These are a bunch of install, utility and tutorial scripts we commonly use for the raspberry pi.
