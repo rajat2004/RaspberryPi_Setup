@@ -2,10 +2,6 @@
 
 These are a bunch of install, utility and tutorial scripts we commonly use for the raspberry pi.
 
-_Author: Varun Sundar_
-
-_Last Updated: 11th April, 2018_
-
 _Models Supported: RPi 0,1,2,3 (A,B)_  
 _Recommended: RPi 3B, 0 (and 0 W)_  
 _Tested on: Rpi 3B_
