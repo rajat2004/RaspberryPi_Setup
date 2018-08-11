@@ -2,7 +2,7 @@
 
 A step-by-step guide to set up a Raspberry Pi from scratch, from flashing SD card to enabling WiFi and Live Video Streaming using USB Web Camera as well as running OpenCV on the Rpi, all with only a laptop and nothing else.
 
-# Requirements
+## Requirements
 
 - Working Linux machine with SD card slot or SD card reader
 - Raspberry Pi
@@ -13,7 +13,10 @@ Note:
 2. Everything was tested on a Raspberry Pi 3 with Raspbian Jessie and Linux Machine running Ubuntu 16.04      
 
 
-# 1. Setup the SD Card   
+## Setup the SD Card   
+### 1. Download the Image
+
+Download the official Raspbian Image file from 
 
 
 # Setup Scripts for Raspberry Pi
